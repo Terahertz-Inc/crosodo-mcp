@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.crosodo/mcp",
+  "title": "Crosodo",
+  "description": "Cottage-food law by state and county, Crosodo products, checkout links, credential checks.",
+  "version": "1.0.2",
+  "websiteUrl": "https://crosodo.com/developers",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "crosodo-mcp",
+      "version": "1.0.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crosodo.com/api/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Terahertz-Inc/crosodo-mcp",
+    "source": "github"
+  }
+}
