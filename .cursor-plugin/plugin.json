@@ -1,0 +1,14 @@
+{
+  "name": "crosodo",
+  "displayName": "Crosodo",
+  "description": "Cottage food law and permit lookups for home bakers: state rules, county permits, label requirements, and Crosodo Certified credentials.",
+  "version": "1.0.3",
+  "author": {
+    "name": "Terahertz, Inc.",
+    "email": "support@crosodo.com"
+  },
+  "homepage": "https://crosodo.com",
+  "repository": "https://github.com/Terahertz-Inc/crosodo-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "cottage-food", "home-bakery", "permits", "food-law"]
+}
