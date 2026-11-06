@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "crosodo": {
+      "url": "https://crosodo.com/api/mcp"
+    }
+  }
+}
