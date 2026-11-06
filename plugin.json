@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "crosodo",
+  "version": "1.0.3",
+  "description": "Cottage food and home bakery law by US state and county: rules, permits, labels, and Crosodo Certified status.",
+  "author": {
+    "name": "Terahertz, Inc.",
+    "email": "support@crosodo.com",
+    "url": "https://crosodo.com"
+  },
+  "homepage": "https://crosodo.com",
+  "repository": "https://github.com/Terahertz-Inc/crosodo-mcp",
+  "license": "MIT",
+  "keywords": [
+    "crosodo",
+    "cottage-food",
+    "home-bakery",
+    "permits",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "crosodo": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
