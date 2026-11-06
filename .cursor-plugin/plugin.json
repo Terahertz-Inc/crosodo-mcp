@@ -10,5 +10,12 @@
   "homepage": "https://crosodo.com",
   "repository": "https://github.com/Terahertz-Inc/crosodo-mcp",
   "license": "MIT",
-  "keywords": ["mcp", "cottage-food", "home-bakery", "permits", "food-law"]
+  "keywords": [
+    "mcp",
+    "cottage-food",
+    "home-bakery",
+    "permits",
+    "food-law"
+  ],
+  "logo": "assets/logo.png"
 }
