@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crosodo MCP — public connector for the cottage baker’s field guide</title>
+    <meta
+      name="description"
+      content="Public Model Context Protocol connector for Crosodo. Cottage-food and home-bakery law lives on the official site at crosodo.com."
+    />
+    <link rel="canonical" href="https://terahertz-inc.github.io/crosodo-mcp/" />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <meta property="og:title" content="Crosodo MCP" />
+    <meta
+      property="og:description"
+      content="This GitHub Pages site is the public MCP landing for Crosodo. The product is at crosodo.com."
+    />
+    <meta property="og:url" content="https://terahertz-inc.github.io/crosodo-mcp/" />
+    <meta property="og:image" content="https://terahertz-inc.github.io/crosodo-mcp/assets/logo.png" />
+    <style>
+      :root {
+        --cream: #f4ead8;
+        --paper: #fff8ee;
+        --ink: #24151a;
+        --rust: #c45c1a;
+        --gold: #c9963a;
+        --burgundy: #6b3a42;
+        --rule: #d9c4a4;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+
+      body {
+        color: var(--ink);
+        background:
+          radial-gradient(1200px 600px at 10% -10%, #7a444c 0%, transparent 55%),
+          linear-gradient(165deg, #3a1f24 0%, #1c1013 100%);
+        font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+        line-height: 1.55;
+      }
+
+      main {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 4.5rem 1.25rem 3rem;
+      }
+
+      .dossier {
+        background: var(--paper);
+        border: 1px solid var(--gold);
+        box-shadow:
+          0 0 0 6px var(--cream),
+          0 24px 60px rgba(0, 0, 0, 0.35);
+        padding: 2.25rem 2rem 2rem;
+      }
+
+      .mark {
+        display: flex;
+        align-items: center;
+        gap: 0.85rem;
+        margin-bottom: 1.75rem;
+      }
+
+      .mark img {
+        width: 52px;
+        height: 52px;
+        border-radius: 12px;
+        background: #000;
+      }
+
+      .mark span {
+        display: block;
+      }
+
+      .kicker {
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        color: var(--burgundy);
+      }
+
+      .wordmark {
+        font-size: 1.15rem;
+        font-weight: 700;
+      }
+
+      h1 {
+        font-size: clamp(1.85rem, 4vw, 2.45rem);
+        line-height: 1.15;
+        font-weight: 700;
+        margin: 0 0 1rem;
+      }
+
+      p {
+        margin: 0 0 1rem;
+        font-size: 1.05rem;
+      }
+
+      .cta {
+        display: block;
+        margin: 1.6rem 0 0.85rem;
+        padding: 0.95rem 1.1rem;
+        background: var(--rust);
+        color: #fff8ee;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+      }
+
+      .cta:hover,
+      .cta:focus-visible {
+        background: #a64b14;
+      }
+
+      .cta small {
+        display: block;
+        margin-top: 0.2rem;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        opacity: 0.9;
+      }
+
+      .notes {
+        margin-top: 1.4rem;
+        padding-top: 1.15rem;
+        border-top: 1px solid var(--rule);
+        font-size: 0.98rem;
+      }
+
+      a {
+        color: var(--rust);
+      }
+
+      a:hover {
+        color: #8e3f10;
+      }
+
+      footer {
+        margin-top: 1.5rem;
+        color: #e8d7c4;
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+      }
+
+      footer a {
+        color: #f0d7a8;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="dossier">
+        <div class="mark">
+          <img src="assets/logo.png" width="52" height="52" alt="Crosodo mark" />
+          <div>
+            <span class="kicker">Public MCP repository</span>
+            <span class="wordmark">Crosodo</span>
+          </div>
+        </div>
+        <h1>Cottage-food law for agents. The field guide lives on the website.</h1>
+        <p>
+          This page is a GitHub Pages landing for the public Model Context Protocol
+          connector. It is not a substitute for the product. Home bakers look up
+          sales caps, labels, and county rules in Crosodo’s US directory — fifty
+          states, D.C., and every county.
+        </p>
+        <p>
+          Claude, Cursor, and other MCP clients can ask those same questions through
+          this repository’s server. Start on the official site:
+        </p>
+        <a class="cta" href="https://crosodo.com">
+          crosodo.com
+          <small>Official website</small>
+        </a>
+        <p class="notes">
+          Optional reading for agent builders:
+          <a href="https://crosodo.com/developers">crosodo.com/developers</a>.
+          Summaries are not legal advice; confirm with the statute and the local
+          agency before you sell.
+        </p>
+      </article>
+      <footer>
+        Terahertz, Inc. ·
+        <a href="https://github.com/Terahertz-Inc/crosodo-mcp">Source on GitHub</a>
+      </footer>
+    </main>
+  </body>
+</html>
