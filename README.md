@@ -1,5 +1,10 @@
 # Crosodo MCP Server: cottage food law by state and county for AI agents
 
+[![npm](https://img.shields.io/npm/v/crosodo-mcp.svg)](https://www.npmjs.com/package/crosodo-mcp)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-green)](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.crosodo%2Fmcp)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+
 [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server for [Crosodo](https://crosodo.com). Ask Claude, Cursor or any MCP client about cottage food and home bakery laws in every US state, county requirements, and Crosodo Certified credentials.
 
 **Website:** [crosodo.com](https://crosodo.com) · **Developer docs:** [crosodo.com/developers](https://crosodo.com/developers)
