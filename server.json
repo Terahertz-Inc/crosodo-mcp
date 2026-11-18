@@ -2,14 +2,14 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.crosodo/mcp",
   "title": "Crosodo",
-  "description": "Cottage-food law by state and county, Crosodo products, checkout links, credential checks.",
-  "version": "1.0.2",
+  "description": "Cottage-food law, county 4-Box permits, food legality, label previews and baker dashboard tools.",
+  "version": "1.1.0",
   "websiteUrl": "https://crosodo.com/developers",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "crosodo-mcp",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "transport": {
         "type": "stdio"
       }

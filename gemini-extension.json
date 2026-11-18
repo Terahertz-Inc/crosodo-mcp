@@ -1,6 +1,6 @@
 {
   "name": "crosodo",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Crosodo MCP: cottage-food law by US state and county, products, and credential checks.",
   "mcpServers": {
     "crosodo": {
